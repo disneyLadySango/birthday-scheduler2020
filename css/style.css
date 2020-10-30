@@ -377,6 +377,12 @@ nav h3 {
 	display: none;
 }
 
+.mask .card-main-area-title,
+.mask .card-main-area-description {
+	display: none;
+}
+
+
 .card-now-hidden-text {
 	color: #333333;
 	font-size: 18px;
