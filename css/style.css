@@ -1,0 +1,521 @@
+/* Font
+------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Modern+Antiqua);
+
+/* Material
+------------------------------------------------------------*/
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+/* Reset
+------------------------------------------------------------*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,
+th {
+  text-align: left;
+}
+q:before,
+q:after {
+  content: "";
+}
+object,
+embed {
+  vertical-align: top;
+}
+legend {
+  display: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+img,
+abbr,
+acronym,
+fieldset {
+  border: 0;
+}
+
+body {
+  font: 14px/1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic,
+    "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo,
+    sans-serif;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: #333333;
+  background: #fff;
+}
+
+a {
+  color: #0066ff;
+  text-decoration: none;
+}
+
+a:hover,
+.active {
+  text-decoration: none;
+}
+
+a:active,
+a:focus,
+input:active,
+input:focus {
+  outline: 0;
+}
+
+/* Common
+------------------------------------------------------------*/
+h1,
+h2 {
+  font-family: "Modern Antiqua", "Noto Sans JP", serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+	clear: both;
+	width: 100%;
+	min-width: 100%;
+	margin: 30px 0;
+}
+
+header {
+	margin-bottom: 30px;
+}
+
+section h2 {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+}
+
+section h2 span {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #000;
+}
+
+.inner {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.innerS {
+	width: 100%;
+	max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+#mainImg {
+	text-align: center;
+	padding: 0 20px;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+i {
+	margin-right: 5px;
+}
+
+#weather div {
+	padding: 0 5%;
+	margin-bottom: 30px;
+}
+
+#gallery {
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+#gallery li {
+  float: left;
+  width: calc(100% / 3);
+  line-height: 0;
+}
+
+#gallery li.full {
+  width: 100%;
+}
+
+#gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.article {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.article img {
+  float: left;
+  margin: 5px 20px 20px;
+}
+
+.article p {
+  margin-bottom: 20px;
+}
+
+#wrapper {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+nav h3 {
+	text-align: center;
+}
+
+#footer div {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Card
+------------------------------------------------------------*/
+.card-wrapper {
+	max-width: 800px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.card-area {
+	background-color: #E5E5E5;
+	border-radius: 6px;
+	padding: 30px 20px 50px;
+}
+
+.card-area > ul > li {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #FFF;
+	border-radius: 6px;
+	margin-top: 20px;
+	border-left: 7px #B3B3B3 solid;
+	padding: 20px 20px 15px;
+}
+
+.card-area > ul > li:first-of-type {
+	margin-top: 0;
+}
+
+.card-time-area {
+	color: #666666;
+	font-weight: bold;
+	padding: 10px 10px 10px 0;
+	border-right: 1px #C5C5C5 dashed;
+	margin: -5px 10px -5px 0;
+	width: 50px;
+}
+
+.card-time-area p {
+	color: #666666;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.card-time-area label {
+	color: #ff5252;
+	font-weight: normal;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+.card-main-area {
+	display: flex;
+	flex-direction: column;
+	width: calc(100% - 71px);
+}
+
+.card-main-area-title {
+	display: flex;
+	flex-direction: row;
+	color: #666666;
+}
+
+.card-main-area-description {
+	padding: 5px 10px 0;
+	color: #666666;
+	font-size: 12px;
+}
+
+.card-main-area-description ol {
+	font-size: 12px;
+	padding-left: 30px;
+}
+
+.card-main-area-map {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.card-main-area-map iframe {
+	width: 100%;
+}
+
+.card-main-area-image {
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.card-main-area-image a {
+	width: 100%;
+	margin: 5px 0;
+}
+
+.card-main-area-image a img {
+	border-radius: 6px;
+	width: 100%;
+}
+
+.mask * {
+	color: #333333;
+}
+.card-main-area.mask {
+	background-color: #333333;
+}
+
+.card-main-area-map.mask,
+.card-main-area-image.mask {
+	display: none;
+}
+
+.mask a {
+	display: none;
+}
+
+.card-now-hidden-text {
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.card-area ul li.morning-card {
+	border-color: #FF7043;
+}
+
+.card-area ul li.night-card {
+	border-color: #78909C;
+}
+
+.card-area ul li.move-card {
+	border-color: #9CCC65;
+}
+
+.card-area ul li.place-card {
+	border-color: #42A5F5;
+}
+
+.card-area ul li.task-card {
+	border-color: #ff1744;
+}
+
+/* Event
+------------------------------------------------------------*/
+.event-list,
+.event-list a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.event-area {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.event-list {
+	width: 100%;
+	min-width: 100%;
+	border: 1px dashed #C5C5C5;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.event-list img {
+	width: 100%;
+}
+
+/* AnkerLink
+------------------------------------------------------------*/
+.anker-list {
+	margin: 0;
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.anker-list li{
+	width: calc( (100% / 3) - 20px );
+  margin:0 10px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.anker-link {
+	width: 100%;
+	border-radius: 6px;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 16px;
+  background: #29B6F6;
+  border: 2px solid #29B6F6;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  position: relative;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.anker-link::after{
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  border-bottom: solid 2px #fff;
+  border-right: solid 2px #fff;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  margin-left: -3px;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+/* Responsive
+------------------------------------------------------------*/
+
+@media only screen and (min-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+	.innerS,
+	.card-wrapper {
+    width: 94%;
+    padding-bottom: 30px;
+	}
+	
+  #gallery li {
+    float: none;
+    width: 100%;
+	}
+	
+  .article img {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  section h2 {
+    margin: 0 auto;
+  }
+}
