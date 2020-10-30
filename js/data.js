@@ -70,7 +70,7 @@ const PLAN = [
       },
       {
         cardType: CARD_TYPE.move,
-        time: { planTime: '18:00〜', openTime: '16:00' },
+        time: { planTime: '18:00〜', openTime: '15:00' },
         main: {
           title: { icon: MATERIAL_ICON.move, text: '移動' },
           description: [
@@ -84,7 +84,7 @@ const PLAN = [
       },
       {
         cardType: CARD_TYPE.place,
-        time: { planTime: '19:00〜', openTime: '18:30' },
+        time: { planTime: '19:00〜', openTime: '18:00' },
         main: {
           title: { icon: MATERIAL_ICON.hotel, text: 'ホテルチェックイン' },
           description: [
@@ -294,7 +294,7 @@ const PLAN = [
       },
       {
         cardType: CARD_TYPE.place,
-        time: { planTime: '21:30', openTime: '21:00' },
+        time: { planTime: '21:30', openTime: '20:00' },
         main: {
           title: { icon: MATERIAL_ICON.hotel, text: '三井ガーデンホテル プラナ東京ベイ' },
           description: [
