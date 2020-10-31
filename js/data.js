@@ -49,8 +49,10 @@ const PLAN = [
             'ディズニーの準備できたら行きますよ！',
             'ペットホテルいく前にストレス発散',
           ],
-          map: null,
-          image: null,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.039697082578!2d139.534762665254!3d35.50329663023613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90c1052ba19ce1e2!2z56We5aWI5bed55yM56uL5Zub5a2j44Gu5qOu5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1604103997169!5m2!1sja!2sjp',
+          image: [
+            { link: 'https://www.kanagawaparks.com/shikinomori/', img: 'https://parkful.net/wp-content/uploads/2017/07/shikinomori-park14.jpg', }
+          ],
         },
         isSecret: false,
       },
