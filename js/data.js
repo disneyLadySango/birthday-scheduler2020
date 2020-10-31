@@ -86,7 +86,7 @@ const PLAN = [
       },
       {
         cardType: CARD_TYPE.place,
-        time: { planTime: '19:30〜', openTime: '17:00' },
+        time: { planTime: '19:30〜', openTime: '16:30' },
         main: {
           title: { icon: MATERIAL_ICON.hotel, text: 'ホテルチェックイン' },
           description: [
