@@ -2,5 +2,6 @@
 超プライベートプロジェクトです
 
 ## 内容
-旅のしおりです。
-時限式でスケジュールが表示されます。
+旅のしおりです。<br>
+時限式でスケジュールが表示されます。<br>
+https://disneyladysango.github.io/birthday-scheduler2020/
